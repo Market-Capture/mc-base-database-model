@@ -27,9 +27,6 @@
     ]
   },
   "private": true,
-  "bugs": {
-    "url": ""
-  },
   "homepage": "",
   "dependencies": {
     "@babel/cli": "^7.17.6",
