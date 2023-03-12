@@ -54,3 +54,6 @@ Thumbs.db
 # test files
 
 /scratch.js
+
+# package-lock.json
+/package-lock.json
