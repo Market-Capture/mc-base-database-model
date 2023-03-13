@@ -1,3 +1,3 @@
-const HelloWorld = require("./models/helloWorldModel");
+import { helloWorldInstance } from "./models/helloWorldModel.js";
 
-module.exports = { HelloWorld };
+export { helloWorldInstance };

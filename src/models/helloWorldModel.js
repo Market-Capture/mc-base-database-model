@@ -1,4 +1,4 @@
-const { helloWorld } = require("../utils/helpers/helloWorld");
+import { helloWorld } from "../utils/helpers/helloWorld.js";
 
 class HelloWorld {
   constructor(fileName) {
@@ -10,4 +10,6 @@ class HelloWorld {
   }
 }
 
-module.exports = new HelloWorld("helloWorldModel.js");
+const helloWorldInstance = new HelloWorld("helloWorldModel.js");
+
+export { helloWorldInstance };
