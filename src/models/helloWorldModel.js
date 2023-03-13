@@ -6,7 +6,7 @@ class HelloWorld {
   }
 
   sayHello() {
-    helloWorld(this.fileName);
+    return helloWorld(this.fileName);
   }
 }
 

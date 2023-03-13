@@ -1,5 +1,8 @@
 const helloWorld = (fileName) => {
-  console.log(`hello from ${fileName}!`);
+  const say = `hello from ${fileName}!`;
+  console.log(say);
+
+  return say;
 };
 
 export { helloWorld };
