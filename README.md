@@ -1,1 +1,0 @@
-# mc-base-npm-package
